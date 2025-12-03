@@ -7,9 +7,7 @@ extern "C" {
 #include <stdbool.h>
 #endif
 
-bool pincushion_hooks_present();  
-int pincushion_dump_filters();
-
+bool pincushion_hooks_present();
 
 #ifdef __cplusplus
 }
