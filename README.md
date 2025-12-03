@@ -1,5 +1,5 @@
 # pincushion
-A lightweight instrumentation tool for sophisticated debugger workflows
+A lightweight instrumentation tool for highly configurable debugger breakpoint control 
 
 ## Usage
 
@@ -47,7 +47,7 @@ The above example will break on both main() and B() when run under
 a debugger, e.g.
 
 ```bash
-$ gcc -finstrument-functions -o example example.c
+$ gcc -finstrument-functions -g -o example example.c
 $ gdb --args pincushion ./example
 ```
 
